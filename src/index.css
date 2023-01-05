@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.number>button {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px;
+  border-style: solid #333333;
+  border-radius: 10px;
+  background-color: #555555;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.number>button:hover {
+  border-style: solid #555555;
+  background-color: #333333;
+}
+
+.number:nth-child(16)>button {
+  background-color: #880808;
+}
+
+.number:nth-child(17)>button {
+  background-color: #880808;
+  width: 100px;
+}
+
+.number:nth-child(4)>button,
+.number:nth-child(8)>button,
+.number:nth-child(12)>button,
+.number:nth-child(13)>button{
+  background-color: 	#C2B280;
+  color: black;
+}
+
+.number:nth-child(4)>button:hover,
+.number:nth-child(8)>button:hover,
+.number:nth-child(12)>button:hover,
+.number:nth-child(13)>button:hover{
+  background-color: 	#E49B0F;
+  color: black;
+}
+
+.number:nth-child(17)>button:hover {
+  background-color: #A52A2A;
+}
+
+.number:nth-child(16)>button:hover {
+  background-color: #A52A2A;
+}
+
+.calc_wrap{
+  border: 3px solid black;
+}
+.cal_body {
+  display: flex;
+  margin: auto;
+  height: 350px;
+  width: 300px;
+  justify-content: center;
+  background-color: #dddddd;
+  align-items: space-around;
+  flex-wrap: wrap;
+  border: 1px solid black;
+
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin: auto;
+  width: 300px;
+  background-color: #dddddd;
+  margin-top: 2%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.display>input {
+  display: flex;
+  height: 50px;
+  text-align: right;
+  font-size: 20px;
+  border-style: solid #333333;
+  border-radius: 5px;
+  background-color: #C2B280;
+}
